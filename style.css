@@ -4,12 +4,15 @@ body{
     display: flex;
     justify-content: center;
     height: 100vh;
+    width: 100vw;
     align-items: center;
     box-sizing: border-box;
+    overflow: auto;
    
 }
 
 .output{ 
+    width: 100vw;
     margin :40px;
     border: 2px solid rgb(231, 9, 46);
     border-radius: 10px;
@@ -51,15 +54,17 @@ body{
     box-sizing: border-box;
     justify-content: center;
     display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));       
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));       
     /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
     gap: 10px;
     margin: 50px 40px;
     border: 2px solid skyblue;
+    width: 100vw;
+    
 }
 
 .button{   
-    padding: 5px;
+    padding: 10px;
     font-size: 20px;
     font-weight: bolder;
     border: 2px solid black;
