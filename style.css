@@ -1,6 +1,6 @@
 body{
    
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -41,9 +41,13 @@ body{
 }
 .container{ 
     overflow:auto;
-    margin: 1rem 0px;    
-    width: 100%;
-    height: 100%;     
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin: 0 0px;    
+    width: 100vw;
+    height: ;     
     border: 3px solid gray;
     background: url(https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0ZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
     background-size: cover;
@@ -54,7 +58,7 @@ body{
     box-sizing: border-box;
     justify-content: center;
     display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));       
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));       
     /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
     gap: 10px;
     margin: 50px 40px;
