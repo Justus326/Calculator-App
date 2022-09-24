@@ -1,0 +1,85 @@
+body{
+   
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    box-sizing: border-box;
+   
+}
+
+.output{ 
+    margin :40px;
+    border: 2px solid rgb(231, 9, 46);
+    border-radius: 10px;
+    height: 5rem;
+    grid-column: 1/ -1;
+    background-color:rgb(232, 233, 234);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.output .previous-display{
+    color:rgb(255, 0, 0);
+    font-weight: bolder;
+    font-size: 1.7rem;
+    
+}
+
+.output .current-display{
+    color:rgb(9, 31, 1);
+    font-weight: bolder;
+    font-size: 2.7rem;
+}
+.container{ 
+    overflow:auto;
+    margin: 1rem 0px;    
+    width: 100%;
+    height: 100%;     
+    border: 3px solid gray;
+    background: url(https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0ZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+}
+.button-container{
+    
+    margin: auto;
+    box-sizing: border-box;
+    justify-content: center;
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));       
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    gap: 10px;
+    margin: 50px 40px;
+    border: 2px solid skyblue;
+}
+
+.button{   
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.button:hover{
+    background-color: aqua;
+    transition: 1s ease-in-out;
+}
+
+.button:nth-child(17){
+    grid-column: span 2;
+    background-color: orange;
+}
+
+.button:nth-child(16){
+    grid-column: span 2;
+    background-color: red;
+}
+
+
