@@ -86,12 +86,12 @@ body{
     transition: 1s ease-in-out;
 }
 
-.button:nth-child(17){
+.button:nth-child(18){
     grid-column: span 2;
     background-color: orange;
 }
 
-.button:nth-child(16){
+.button:nth-child(17){
     grid-column: span 2;
     background-color: red;
 }
