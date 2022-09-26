@@ -14,7 +14,7 @@ body{
 
 .output{
     
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
     
@@ -59,13 +59,13 @@ body{
 }
 .button-container{
     
-    margin: 1px 10px;    
+    margin: px 10px;    
     justify-content: center;
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));       
     /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
     gap: 10px;
-    margin: 50px 0px;
+    
     border: 2px solid skyblue;
     width: 100vw;
     box-sizing: border-box;
@@ -73,7 +73,8 @@ body{
     
 }
 
-.button{   
+.button{  
+    
     padding: 10px;
     font-size: 20px;
     font-weight: bolder;
@@ -101,7 +102,7 @@ body{
 @media only screen and (min-width:200px){
    .button-container{
        border: none;
-       margin-top: 8rem;
+       margin-top: 3rem;
       width: 350px;
       display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));   
@@ -109,6 +110,9 @@ body{
 
    .container{
        width: 350px;
+       margin: 0;
+       overflow: hidden;
+       box-sizing: border-box;
    }
    
 }
