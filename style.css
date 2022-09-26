@@ -4,18 +4,20 @@ body{
     display: flex;
     justify-content: center;
     height: 100vh;
-    width: 100vw;
+    width: 600px;
     align-items: center;
     box-sizing: border-box;
-    overflow: hidden;
+    
   
    
 }
 
 .output{
     
-    margin: 10px 5px; 
-    width: 100;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
     align-items: center;
     border: 2px solid rgb(231, 9, 46);
     border-radius: 10px;
@@ -94,6 +96,21 @@ body{
 .button:nth-child(17){
     grid-column: span 2;
     background-color: red;
+}
+
+@media only screen and (min-width:200px){
+   .button-container{
+       border: none;
+       margin-top: 8rem;
+      width: 600px;
+      display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));   
+   } 
+
+   .container{
+       width: 600px;
+   }
+   
 }
 
 
