@@ -102,13 +102,13 @@ body{
    .button-container{
        border: none;
        margin-top: 8rem;
-      width: 600px;
+      width: 350px;
       display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));   
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));   
    } 
 
    .container{
-       width: 600px;
+       width: 350px;
    }
    
 }
